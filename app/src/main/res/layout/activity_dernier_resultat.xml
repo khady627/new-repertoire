@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity" >
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="match_parent"
+        android:layout_height="298dp"
+        android:layout_marginTop="@dimen/cardview_default_elevation"
+        app:srcCompat="@drawable/photo" />
+
+    <TextView
+        android:id="@+id/textView22"
+        android:layout_width="match_parent"
+        android:layout_height="418dp"
+        android:layout_weight="1"
+        android:text=" PANDEMIE COVID 19 /SENEGAL : COMMUNIQUE 60"
+        android:textColor="#0C0A0A"
+        android:textSize="25sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView31"
+        android:layout_width="match_parent"
+        android:layout_height="230dp"
+        android:paddingTop="0.dp"
+        android:text="Ce Jeudi 30 Avril, le Ministère de la Santé et de l'Action Sociale a reçu les résultats des examens virologique ci-dessous :Sur 1161 tests réalisés 51 sont revenus positifs, soit un taux de posivité de 4.39%. Les tests positif sont répartis comme suit : .40 contacts suivis par nos services .11 cas issus de la transmmission communautaire répartis entre Mbao[01],Mariste[01],Touba[08] .19pastients hospitalisés ont été controlé négatif, et décrarés guéris .02 cas graves sont prises en charge dans les services de réanimation  de l'Hopital de Fann de l'Hopital Principal.L'etat de santé des autres pastients hospitalisés sont stable.  A ce jour 933 cas ont été déclaré positifs dont 334 quéris 09 décédés, 01 évacué et donc 589 sous traitement. Le Ministère de la Santé et l'Action Sociale exhorte les populations des mesures de prévention collectives et individuelles. "
+        android:textColor="#0C0A0A"
+        android:textSize="12.5sp"
+        android:textStyle="normal" />
+
+
+</LinearLayout>
